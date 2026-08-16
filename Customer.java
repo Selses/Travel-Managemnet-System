@@ -15,4 +15,9 @@ public class Customer {
     public String getCustomerName() {
         return customerName;
     }
+
+    public void displayCustomer() {
+        System.out.println("Customer ID   : " + customerId);
+        System.out.println("Customer Name : " + customerName);
+    }
 }
