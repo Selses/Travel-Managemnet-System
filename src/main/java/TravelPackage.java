@@ -5,8 +5,10 @@ public class TravelPackage {
     private int days;
     private double price;
 
-    public TravelPackage(int packageId, String destination,
-                         int days, double price) {
+    public TravelPackage(int packageId,
+                         String destination,
+                         int days,
+                         double price) {
 
         this.packageId = packageId;
         this.destination = destination;
@@ -31,6 +33,7 @@ public class TravelPackage {
     }
 
     public void displayPackage() {
+
         System.out.println("------------------------------");
         System.out.println("Package ID : " + packageId);
         System.out.println("Destination: " + destination);
